@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página de Teste</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="campo1">
+                <label for="numero1">Campo 1</label>
+                <input type="text" id="numero1" />
+            </div>
+            <div class="campo2">
+                <label for="numero2">Campo 2</label>
+                <input type="text" id="numero2" />
+            </div>
+            <div class="operacao">
+                <label for="operacaoValor">Operação</label>
+                <select id="operacaoValor">
+                    <option value="soma">Soma</option>
+                    <option value="subtracao">Subtração</option>
+                </select>
+            </div>
+            <div class="resultado">
+                <label for="resultadoValor">Resultado</label>
+                <input type="text" id="resultadoValor" disabled/>
+            </div>
+            <div class="botao">
+                <button id="executar" onclick="executar()">Executar</button>
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
